@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".CoverActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="303dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-68dp"
+        android:src="@drawable/vector" />
+
+
+    <ImageView
+        android:layout_width="82dp"
+        android:layout_height="96dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="23dp"
+        android:layout_marginRight="283dp"
+        android:layout_marginBottom="493dp"
+        android:src="@drawable/hospital" />
+
+    <ImageView
+        android:layout_width="69dp"
+        android:layout_height="71dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="306dp"
+        android:layout_marginLeft="327dp"
+        android:layout_marginTop="133dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginBottom="388dp"
+        android:src="@drawable/cross" />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="330dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="113dp"
+        android:layout_marginRight="81dp"
+        android:layout_marginBottom="349dp"
+        android:src="@drawable/dokter1" />
+
+    <ImageView
+        android:layout_width="61dp"
+        android:layout_height="78dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="297dp"
+        android:layout_marginRight="310dp"
+        android:src="@drawable/phone" />
+
+
+    <ImageView
+        android:layout_width="71dp"
+        android:layout_height="71dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="307dp"
+        android:layout_marginTop="148dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginRight="37dp"
+        android:src="@drawable/message" />
+
+    <ImageView
+        android:layout_width="204dp"
+        android:layout_height="88dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="634dp"
+        android:layout_marginRight="13dp"
+        android:src="@drawable/rectangle2" />
+
+    <TextView
+        android:id="@+id/textview1"
+        android:layout_width="204dp"
+        android:layout_height="77dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="654dp"
+        android:layout_marginRight="-3dp"
+        android:fontFamily="@font/american"
+        android:text="selanjutnya >"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="471dp"
+        android:fontFamily="@font/american"
+        android:text="Konsultasi dengan dokter terpercaya"
+        android:textColor="@color/purple_700"
+        android:textSize="24dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="395dp"
+        android:fontFamily="@font/american"
+        android:text="Dokter ku"
+        android:textColor="@color/purple_700"
+        android:textSize="45dp" />
+
+</RelativeLayout>
